@@ -1,0 +1,315 @@
+﻿/* ------ Main HTML Selectors ------ */
+
+html {
+	height: 100%; 
+	margin-bottom: 1px;}
+	
+body {
+	background: #ffffff url('images/background.jpg') repeat-x;
+	color: #000000;
+	font: normal 80% Verdana, Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;}
+
+hr {
+	background-color: #6ab7ca;
+	color: #6ab7ca;
+	border: none;
+	height: 1px;
+	width: 100%;}
+
+img {
+	border: none;}
+
+ul {
+	padding: 0;
+	margin: 0 0 10px 20px;
+	list-style: square;}
+
+fieldset {
+	border: 1px dashed #818181;
+	padding: 10px;
+	margin: 0 0 10px 0;}
+
+legend {
+	background-color: #ffffff;
+	color: #397f8d;
+	font: bold 18px Georgia, Georgia, sans-serif;
+	letter-spacing: 2px;
+	padding: 2px 4px;
+	margin: 0;}
+
+table {
+	padding: 0;
+	border-collapse: collapse;
+	font-size: 100%;
+	width: 100%;}
+
+/* ------ Sets Main Hyperlink Properties ------ */
+
+a {
+	color: #6ab7ca;
+	text-decoration: underline;
+	outline: none;
+	font-weight: bold;}
+
+a:hover {
+	color: #808080;
+	text-decoration: underline;
+	font-weight: bold;}
+
+/* ------ Sets Heading Fonts and Colors ------ */
+
+h1 {
+	color: #397f8d;
+	font: normal 28px Georgia, Georgia, serif;
+	text-align: left;
+	letter-spacing: 2px;}
+
+h2 {
+	color: #397f8d;
+	font: normal 22px Arial, Arial, sans-serif;
+	letter-spacing: 2px;
+	text-align: left;}
+
+h3{
+	color: #606060;
+	font: bold 16px Georgia, Georgia, sans-serif;
+  text-transform: uppercase;
+	text-align: left;}
+
+h4 {
+	color: #397f8d;
+	font: normal 18px Arial, Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;}
+
+h5 {
+	color: #606060;
+	font: bold 16px Georgia, Georgia, sans-serif;
+  text-transform: uppercase;
+	text-align: left;}
+
+h6 {
+	color: #397f8d;
+	margin-bottom: 0;
+	font: bold 14px Arial, Helvetica, sans-serif;}
+
+/* ------ Begins Layout ID Sections ------ */
+
+#wrapper {
+	background-color: #ffffff;
+	color: #000000;
+	width: 960px;
+	text-align: left;
+	margin: 0 auto;}
+
+#header {
+	position: relative;
+	width: 960px;
+	height: 240px;}
+
+#global {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 75%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  width: 960px;}
+  
+	#global ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;}
+		
+	#global li {
+  	display: inline;}
+	
+	#global li a {
+  	color: #ffffff;
+  	font-weight: normal;
+  	text-decoration: none;
+  	padding: 0;}
+
+	#global li a:hover {
+		color: #ffffff;
+		font-weight: normal;
+		text-decoration: underline;}
+
+  
+#navbar {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	z-index: 2;
+  text-align: center;
+  width: 960px;
+  line-height: 40px;}
+  
+	#navbar ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;}
+
+	#navbar li {
+  	display: inline;}
+
+	#navbar li a {
+  	color: #a0a0a0;
+  	font-weight: bold;
+  	text-decoration: none;
+  	padding: 0 20px;}
+
+	#navbar li a:hover {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;}
+
+#content {
+  float: right;
+  width: 610px;
+  line-height: 1.6em;
+  padding: 10px;}
+
+	.contentleft {
+	  float: left;
+	  width: 295px;
+	  margin: 0;
+	  padding: 0 10px 0 0;}
+
+	.contentright {
+	  float: left;
+	  width: 295px;
+	  margin: 0;
+	  padding: 0 0 0 10px;}
+
+#sidebar {
+  float: left;
+  font-size: 85%;
+  width: 300px;
+  padding: 10px;}
+
+#contentwide {
+  width: 940px;
+  padding: 10px;}
+
+#footer {
+  clear: both;
+  width: 960px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #808080;
+  height: 60px;
+  font-size: 80%;
+  padding: 20px 0 0 0;
+  line-height: 1.9em;
+  border-top: 3px #6ab7ca solid;}
+
+	#footer ul {
+	   margin: 0; padding: 0;
+	   list-style-type: none;}
+
+	#footer li {
+	   display: inline;
+	   margin: 0;}
+
+	#footer li a {
+	   color: #808080;
+	   font-weight: normal;
+	   text-decoration: none;}
+
+	#footer li a:hover {
+	   color: #6ab7ca;
+	   font-weight: normal;
+	   text-decoration: underline;}
+
+#footer p {
+  margin: 0; padding: 0;}
+  
+/* ------ Sets the Form Display ------*/
+
+#contactform {
+	padding: 5px;
+	text-align: left;
+	margin: 20px 0 5px 0;}
+
+#contactform label {
+	width: 150px; 
+	float: left; 
+	text-align: right; 
+	margin: 3px 5px 5px 5px; 
+	clear: both;}
+
+#contactform input {
+	margin: 3px 5px 5px 5px; 
+	background-color: #ffffff; 
+	color: #000000; 
+	border: 1px solid #c2c2c2;}
+
+#contactform textarea {
+	font: normal 12px Verdana, sans-serif;
+	margin: 3px 5px 5px 5px; 
+	background-color: #ffffff; 
+	color: #000000; 
+	border: 1px solid #c2c2c2;}
+
+#contactform .button {
+  background-color: transparent;
+	text-align: center; 
+	margin: 5px 0 0 170px; 
+	border: none;
+	clear: both;}
+
+/* ------ Sets Classes ------ */
+
+.center {
+	text-align: center;}	
+
+.clear {
+	clear: both;}
+
+.catalog {
+	padding: 8px;
+	line-height: 1em;
+	text-align: center;
+	vertical-align: top;
+	width: 33%;}
+
+.calendar {
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 0 20px 0;}
+
+.imagecenter-border {
+	border: 3px #818181 double;
+	display: block;
+	margin: 0 auto;}
+	
+.imagecenter-noborder {
+   display: block;
+	margin: 0 auto;}
+	
+.imageleft-noborder {
+	margin: 0 10px 0 0; 
+	float: left;}
+
+.imageright-noborder {
+	margin: 0 0 0 10px; 
+	float: right;}
+	
+.imageleft-border {
+	margin: 0 10px 0 0; 
+	float: left;
+	border: 3px #818181 double;}
+
+.imageright-border {
+	margin: 0 0 0 10px; 
+	float: right;
+	border: 3px #818181 double;}
+
+
